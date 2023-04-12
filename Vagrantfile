@@ -6,6 +6,7 @@ sudo apt update;
 sudo apt upgrade -y
 sudo apt install -y mc nginx nodejs npm
 git clone https://github.com/guilhermelyare/React-mouratech.git
+cd React-mouratech
 npm install
 npm run build
 sudo cp -r build/. /var/www/html/
